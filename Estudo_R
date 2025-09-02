@@ -1,0 +1,16 @@
+# seja um tubo com com raio de 10 cm, com 1,5 metros de comprimento.e com uma espessura de 1 cm.Qual o volume do tubo?
+
+raio_externo <- 0.10
+# A espessura de 1 cm é 0.01 m
+espessura <- 0.01
+# O raio interno é o raio externo menos a espessura
+raio_interno <- raio_externo - espessura
+# O comprimento de 1.5 metros
+comprimento <- 1.5
+
+# Calcula o volume do tubo (cilindro oco)
+# A fórmula correta é: pi * (raio_externo^2 - raio_interno^2) * comprimento
+volume <- pi * (raio_externo^2 - raio_interno^2) * comprimento
+
+# Exibe o volume
+print(volume)
