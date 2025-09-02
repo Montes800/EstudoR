@@ -1,0 +1,13 @@
+#(primeiro.vetor <- c(primeiro.vetor1, primeiro.vetor2))
+
+#length(primeiro.vetor)#tamanho do vetor
+
+dados1 <- c(2, 4, 3, 1, 5, 7, 10, 8, 20)
+
+dados2 <- c(32, 9, 13, 1, 15, 57, 10, 8, 20)
+
+MATRIZA <- matrix(dados1, nrow = 3, ncol = 3, byrow = TRUE)
+
+MATRIZB <- matrix(dados2, nrow = 3, ncol = 3, byrow = TRUE)
+
+print(MATRIZA * MATRIZB)
