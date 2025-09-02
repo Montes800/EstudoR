@@ -1,0 +1,10 @@
+#create a vector
+#media
+x <- c(1,2,3,4,44,5,6,7,8,9,10)
+
+#result.mean <- mean(x)
+#print(result.mean)
+
+#mediana
+median.result <- median(x)
+print(median.result)
